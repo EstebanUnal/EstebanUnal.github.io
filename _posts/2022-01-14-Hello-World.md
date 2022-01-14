@@ -11,4 +11,4 @@ hisotóricos de registros de autos desde el 01/01/2012 hasta el 31/12/2017.
 
 # Datos
 
-![_config.yml]({{ site.baseurl }}/images/config.png)
+![_config.yml]({{ site.baseurl }}/images/img1.png)
