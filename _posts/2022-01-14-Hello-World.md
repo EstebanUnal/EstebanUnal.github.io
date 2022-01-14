@@ -21,6 +21,8 @@ comportamiento de los datos, estás variables serán derivadas de la variable fe
 Veamos como se comportan las unidades registradas para cada una de las variables consideradas hata ahora.
 
 
+## Unidades registradas por día del año
+
 
 
 
