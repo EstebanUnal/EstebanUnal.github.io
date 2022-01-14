@@ -23,7 +23,12 @@ Veamos como se comportan las unidades registradas para cada una de las variables
 
 ## Unidades registradas por día del año
 
+![_config.yml]({{ site.baseurl }}/images/img2.PNG)
 
+Se pueden ver unos picos que representan una gran cantidad de autos registrados a finales y comienzo de
+mes, sí parece haber una tendencia relacioanda con el tiempo.
+
+## Unidades registradas por mes
 
 
 
