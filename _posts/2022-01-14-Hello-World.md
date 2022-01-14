@@ -44,7 +44,7 @@ años, sinembargo se ve que en los últimos días de los meses se alcanzan los v
 
 ## Unidades registradas por semana
 
-![_config.yml]({{ site.baseurl }}/images/img4.PNG)
+![_config.yml]({{ site.baseurl }}/images/img5.PNG)
 
 Se puede ver que los fines de semana son los días que menos autos se registran, eso puede deberse a que le
 Domingo es un día de descanso y que los sábados muchas personas trabajan hasta tempranas horas de la
