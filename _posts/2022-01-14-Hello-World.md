@@ -66,8 +66,10 @@ modelo con el conjunto de variables indicado es escogido con el criterio AIC.
 
 • Primero se intentará predecir y explicar las unidades registradas que corresponden a los años 2012
 hasta 2016
+
 • Segundo se intentará predecir las unidades registradas que corresponden al año 2017 para ver como
 predice el modelo
+
 • Tercero se intentará predecir las unidades registradas para los días comprendidos entre el 01/01/2018
 y el 30/06/2018.
 
