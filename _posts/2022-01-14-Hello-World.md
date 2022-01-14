@@ -84,7 +84,6 @@ registros_17 <- registros[1828:2192,]
 
 ### Paso 1. Se crea un modelo de regresión lineal sin variables
 
-$\widehat Y = \bar Y$
 
 
 
