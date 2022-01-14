@@ -52,9 +52,37 @@ tarde. A partir de esto se crea una variable llamada finde (Fin de semana) que p
 el comportamiento de los registros de las unidades.
 
 
+## Unidades registradas en semana y en fin de semana
 
+![_config.yml]({{ site.baseurl }}/images/img6.PNG)
 
+## Modelo de regresión
 
+Con las variables anteriormente definidas se buscará crear un modelo de regresión que pueda explicar y
+posteriormente predecir las unidades de autos que se registran.
+Para encontrar el mejor modelo de regresión se utiliza la regresión Stepwise, la cual nos permite escoger
+las mejores variables capaces de explicar el comportamiento de las unidades de autos registrados. El mejor
+modelo con el conjunto de variables indicado es escogido con el criterio AIC.
+
+• Primero se intentará predecir y explicar las unidades registradas que corresponden a los años 2012
+hasta 2016
+• Segundo se intentará predecir las unidades registradas que corresponden al año 2017 para ver como
+predice el modelo
+• Tercero se intentará predecir las unidades registradas para los días comprendidos entre el 01/01/2018
+y el 30/06/2018.
+
+Para esto se dividen los datos en dos grupos, datos desde los años 2012 hasta el 2016 (registros_1216) y los
+datos que corresponden al año 2017 (registros_17), para intentar predecir los datos del primer semestre de
+2018 se utilizarán todos los datos.
+
+registros_1216 <- registros[1:1827,]
+registros_17 <- registros[1828:2192,]
+
+## Regresión Stepwise
+
+### Paso 1. Se crea un modelo de regresión lineal sin variables
+
+$\widehat Y = \bar Y$
 
 
 
