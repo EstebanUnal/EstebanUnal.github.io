@@ -84,6 +84,38 @@ registros_17 <- registros[1828:2192,]
 
 ### Paso 1. Se crea un modelo de regresión lineal sin variables
 
+![_config.yml]({{ site.baseurl }}/images/img7.PNG)
+
+El modelo vacío (sólo con el intercepto), tiene una desviación estandar de σ = 552.2. Como no tiene variables
+explicativas no se calcula el R2
+
+### Paso 2. Se crea un modelo de regresión lineal con todas las variables que se puedan considerar
+
+En este caso todas las variables son indicadoras puesto que los datos carecen de variables numéricas.
+![_config.yml]({{ site.baseurl }}/images/img8.PNG)
+
+La desviación estandar del modelo con todas las variables es de σ = 259.30, y un R2 = 0.83, los que significa
+que las covariables del modelo explican un 83% de la variabilidad de las unidades de autos registradas, y con
+un R2
+Ajustado = 0.78 que está muy cerca del R2
+(5%), lo que apoya la veracidad de lo concluído con el R2
+
+### Paso 3. Regresión Stepwise
+
+La regresión Stepwise o paso a paso genera el mejor modelo con las variables más significativas usando la
+regresión hacía atrás (o Backward) y la regresión hacía adelante (o Forward). Escoge el mejor modelo con
+el criterio AIC
+
+![_config.yml]({{ site.baseurl }}/images/img9.PNG)
+
+![_config.yml]({{ site.baseurl }}/images/img10.PNG)
+
+## El modelo final obtenido es:
+
+![_config.yml]({{ site.baseurl }}/images/img11.PNG)
+
+
+
 
 
 
