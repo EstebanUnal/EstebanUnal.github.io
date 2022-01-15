@@ -165,7 +165,43 @@ los valores reales en su mayoría. Sinembargo fue le mejor modelo hallado.
 El MSE de los errores calculados para la base de datos de unidades registradas para el 2017 es de: 140145.4.
 Casi el doble que el MSE para los datos con los que se hicieron el modelo.
 
+## Predicciones para el primer semestre del 2018
 
+Para esto se carga una nueva base de datos con las fechas correspondientes al primer semestre de 2018,
+además se le agregan las variables necesarias para que el modelo pueda hacer la predicción, la base se llama
+registros_18
+
+
+![_config.yml]({{ site.baseurl }}/images/img17.PNG)
+
+## Datos estimados
+
+Para la estimación de los datos se corrige el problema de los datos negativos igualándolos a cero.
+
+![_config.yml]({{ site.baseurl }}/images/img17.PNG)
+
+Al parecer los datos que se estimaron para el primer semestre del 2018 se encuentran entre 1 y 1500 unidades
+registradas, lo que puede ser un problema de subestimación de los datos reales como se vio en el caso para
+los datos del 2017.
+
+## Resultados y Conclusiones.
+
+Algunas de las variables creadas para intentar explicar el comportamiento de las unidades de autos registradas
+resultaron ser útiles, pues se obtuvo un R2 = 0.83 con una desviación estandar de σ = 259.30. Estás variables
+intentaron explciar los datos con los que se contruyó el modelo y se logró un MSE de 52070.35 y cuando
+se corrigió el problema de los valores estimados negativos se logró un MSE de 48900.54, En el caso de la
+predicción no fueron muy útiles pues cuando se intentó predecir los valores para la base de datos que contenía
+las unidades de autos registradas en 2017 se obtuvo un MSE de: 140145.4.
+
+
+Con solo la fecha es complicado obtener variables que den buenos resultados a la hora de crear un modelo
+lineal que explique y haga predicciones sobre la cantidad de unidades de autos que se van a registrar en el
+Registro Único Nacional de Tránsito (RUNT). Se recomendaría otras técnicas como Series de tiempo.
+
+
+## Bibliografía
+
+• Mendez J.(13 de octubre de 2019).Stepwise Regresión.Rpubs.https://rpubs.com/jorge_mendez/609253
 
 
 
