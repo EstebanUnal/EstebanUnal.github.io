@@ -178,7 +178,7 @@ registros_18
 
 Para la estimación de los datos se corrige el problema de los datos negativos igualándolos a cero.
 
-![_config.yml]({{ site.baseurl }}/images/img17.PNG)
+![_config.yml]({{ site.baseurl }}/images/img18.PNG)
 
 Al parecer los datos que se estimaron para el primer semestre del 2018 se encuentran entre 1 y 1500 unidades
 registradas, lo que puede ser un problema de subestimación de los datos reales como se vio en el caso para
